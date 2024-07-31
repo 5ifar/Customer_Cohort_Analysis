@@ -35,3 +35,44 @@ This Alteryx project has been designed with an intent of enhancing e-commerce op
 5. Documentation
 
 ---
+
+## About the Dataset:
+
+### Data Sources:
+The project utilizes the transaction_dataset.csv dataset, which contains detailed information about customer transactions including transaction IDs, product details, customer IDs, dates and order statuses among others. This dataset was sourced from Hicounsellor.com projects titled "Analyzing E-commerce Transactions". This CSV contains 20,000 rows across 13 columns.
+
+### Data Dictionary:
+The dataset provides the following key attributes:
+
+|Column name|Data type|Description|
+|-|-|-|
+|transaction_id|Double|Unique Transaction ID|
+|product_id|Double|Unique Product ID|
+|customer_id|Double|Unique Customer ID|
+|transaction_date|Date|Date of Transaction|
+|online_order|Bool|If Order was placed Online (either True/False)|
+|order_status|V_String|Current Order Status (Approved/Unapproved)|
+|brand|V_String|Product Brand|
+|product_line|V_String|Line of Product|
+|product_class|V_String|Class of Product|
+|product_size|V_String|Size of Product|
+|list_price|Double|List Price of Product|
+|standard_cost|Double|Standard Cost of Product|
+|product_first_sold_date|Date|Date Product was first sold|
+
+## Data Integrity:
+ROCCC Evaluation:
+- Reliability: MED - The raw dataset is created and updated by Hicounsellor. It has a single file.
+- Originality: HIGH - First party provider (Hicounsellor)
+- Comprehensiveness: MED - Total 20000 records were provided. Dataset contains multiple dimension parameters for Products as well as Order transaction data.
+- Current: LOW - Dataset contains 2017 data i.e almost 7 years old. So its not relevant. Any trends observed and insights gained need to be comprehended as a proof of concept.
+- Citation: LOW - No official citation/reference available.
+
+---
+
+
+
+
+
+
+
