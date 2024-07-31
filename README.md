@@ -75,8 +75,17 @@ ROCCC Evaluation:
 
 ---
 
+## Project Implementation:
+This Alteryx workflow is designed to perform comprehensive analysis on customer transactions using the provided dataset. The project encompasses three main phases: 1.Data Cleaning 2.Cohort Analysis 3.Business Insights Generation.
 
+### Phase 1 - Data Cleaning:
 
+1. Imported the data from the transaction_dataset.csv file using the Input Data tool. Checked for initial data integrity using temporary Browse tool.
+2. Ensured correct data types that were compatible for analysis using Auto Field tool. Changes: [tr_id]/[c_id] → Int16, [p_id] → Byte, [online_order] → Bool, [tr_date]/[order_status]/[brand]/[product_line]/[product_class]/[product_size] → String, [list_price]/[standard_cost]/[product_first_sold_date] → double
+3. Split [tr_date] String field based on Space delimiter to dissolve the existing ‘dd-mm-yyyy hh:mm’ String format into 2 separate fields: [tr_date1] ‘dd-mm-yyyy’ and [tr_date2] ‘hh:mm’ using the Text to Columns Parse tool. Then used the DateTime Parse tool to convert the [tr_date1] String field with ‘dd-mm-yyyy’ format into [transaction_date] Date field with standard ‘yyyy-mm-dd’ format.
+4. Selected & Renamed column names to enhance clarity using Select tool. Changes: [tr_id] → [transaction_id], [p_id] → [product_id], [c_id] → [customer_id], [tr_date]/[tr_date1]/[tr_date2] → Fields Removed
+5. Filtered out Null values for [product_class] and [product_size] fields using Custom Filter: !IsNull([product_class]) OR !IsNull([product_size]). Checked for final data integrity using temporary Browse tool. Although removing these null values do not affect my Cohort Analysis, it has been followed as a data cleaning principle.
+6. Export the data to Cleaned Transactions Dataset.xlsx file using the Output tool. Encase all the above select tools in a Tool Container titled ‘Phase 1: Data Cleaning’.
 
 
 
