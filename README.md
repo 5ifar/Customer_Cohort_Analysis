@@ -4,7 +4,7 @@
 
 This repository serves as my documentation for the Ecommerce Cohort Analysis on Customer Retention - Alteryx Project.
 
-It showcases my competancy to work with Alteryx Designer and demonstrates my proficiency in essential tools like **In/Out Tools (Browse, Input Data, Output Data & Text Input), Preparation Tools (Select, Filter, Formula, Sort & Unique), Join Tools (Join, Find Replace & Union) and Documentation Tools (Comment & Tool Container)**.......to be updated.......
+It showcases my competancy to work with Alteryx Designer and demonstrates my proficiency in essential tools like **In/Out Tools (Browse, Input Data, Output Data), Preparation Tools (Auto Field Tool, Data Cleansing Tool, Filter Tool, Formula Tool, Multi-Field Tool, Sample Tool, Select Tool, Sort Tool, Unique Tool), Join Tools (Join, Append Fields & Union), Transform Tools (Cross-Tab Tool, Summarize Tool), Parse Tools (DateTime Tool, Text to Columns Tool) and Documentation Tools (Comment & Tool Container).**
 
 The entire project has been implemented using Alteryx Designer 2024.1 (User) (with AMP Engine enabled). The raw data source and data output files have been uploaded to this repository data folder.
 
@@ -14,6 +14,10 @@ The entire project has been implemented using Alteryx Designer 2024.1 (User) (wi
 Please find the sectional links for the project below:
 - [Project Objective](#project-objective)
 - [Tools used & Methodologies implemented](#tools-used)
+- [About the Dataset](#about-the-dataset)
+  - [Data Sources](#data-sources)
+  - [Data Dictionary](#data-dictionary)
+  - [Data Integrity](#data-integrity)
 
 ---
 
@@ -27,12 +31,13 @@ This Alteryx project has been designed with an intent of enhancing e-commerce op
 2. Datawrapper - for Insight Visuals
 3. GitHub - for Documentation
 
-## Skills & Methodologies implemented: .......to be updated.......
-1. Data Import - Input Data Tool & Text Imput Tool
-2. Data Validation - Select Tool
-3. Data Transformation - Join Tool, Find Replace Tool, Unique Tool, Formula Tool & Union Tool
-4. Data Export - Output Data Tool
-5. Documentation
+## Skills & Methodologies implemented:
+In this project, I leveraged the skills and knowledge acquired during the Alteryx Designer Core Certification and the pursuit of 4 other micro-credentials. This allowed me to harness a robust set of Alteryx tools, putting them to work in a cohesive workflow. Throughout this project, I harnessed the full potential of Alteryx, seamlessly executing all phases and leveraging a range of powerful tools from each tool palette:
+
+1. Data Import/Export - In/Out Tools: Input Tool, Output Tool, Browse Tool
+2. Data Preparation - Preparation Tools: Auto Field Tool, Data Cleansing Tool, Filter Tool, Formula Tool, Multi-Field Tool, Sample Tool, Select Tool, Sort Tool, Unique Tool
+3. Data Transformation - Join Tools: Append Fields Tool, Join Tool & Transform Tools: Cross-Tab Tool, Summarize Tool & Parse Tools: DateTime Tool, Text to Columns Tool
+4. Documentation - Documentation Tools: Comment, Tool Container
 
 ---
 
