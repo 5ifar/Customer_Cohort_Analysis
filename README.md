@@ -87,6 +87,7 @@ This Alteryx workflow is designed to perform comprehensive analysis on customer 
 5. Filtered out Null values for `[product_class]` and `[product_size]` fields using Custom Filter: `!IsNull([product_class]) OR !IsNull([product_size])`. Checked for final data integrity using temporary Browse tool. Although removing these null values do not affect my Cohort Analysis, it has been followed as a data cleaning principle.
 6. Export the data to Cleaned Transactions Dataset.xlsx file using the Output tool. Encase all the above select tools in a Tool Container titled ‘Phase 1: Data Cleaning’.
 
-
+### Phase 2 - Cohort Analysis:
+This phase involved the following steps: **Customer Segmentation:** Grouped customers into cohorts based on their transaction behavior, **Cohort Metrics:** Calculated key metrics (E.g. Cohort Month, Cohort Index & Retention Rate) for each cohort, **Tabular Representation:** Generated Cohort Retention rate to aid in cohort comparison.
 
 
