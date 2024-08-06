@@ -22,6 +22,8 @@ Please find the sectional links for the project below:
   - [Phase 1 - Data Cleaning](#phase-1---data-cleaning)
   - [Phase 2 - Cohort Analysis](#phase-2---cohort-analysis)
   - [Phase 3 - Key Business Insights Generation](#phase-3---key-business-insights-generation)
+- [Workflow Layout](#workflow-layout)
+- [Data Outputs](#data-outputs)
 
 ---
 
