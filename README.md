@@ -115,3 +115,17 @@ This phase involved the following steps: **Customer Segmentation:** Grouped cust
 19. Encase all the above 17 → 18 tools in a Tool Container titled ‘Task: Cohort Retention Rate Table’.
 20. Encase the entire workflow above in a Master Tool Container titled ‘Phase 2: Cohort Analysis’. Export the data to Cohort Analysis Data.xlsx file using the Output tool.
 
+### **Phase 3 - Key Business Insights Generation:**
+This final phase encompasses building workflows to derive the following insights:
+- **Distinct Brands**: Identified unique brands available in the dataset.
+- **Total Sales Amount by Brand**: Calculated the total sales amount for each brand.
+- **Unique Customers**: Counted the number of unique customers who made transactions.
+- **Approved vs. Unapproved Orders**: Quantified approved and unapproved transactions.
+- **Average List Price by Product Line**: Listed top product lines with the highest average list price.
+- **Top 5 Profitable Brands**: Identified brands with the highest profit margin.
+- **Top 5 Products with Highest Profit Margin**: Identified the top 5 products with the highest profit margin.
+- **Customer Spending Analysis**: Calculated three metrics for each customer: Total number of transactions, Total amount spent & Average profit per transaction
+- **Top 5 Product Lines by Revenue Contribution**: Identified product lines with the highest total revenue contribution.
+- **Customers Engaged with Entire Product Range**: Identified customers who made transactions in all distinct product lines.
+
+
