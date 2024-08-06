@@ -90,4 +90,28 @@ This Alteryx workflow is designed to perform comprehensive analysis on customer 
 ### Phase 2 - Cohort Analysis:
 This phase involved the following steps: **Customer Segmentation:** Grouped customers into cohorts based on their transaction behavior, **Cohort Metrics:** Calculated key metrics (E.g. Cohort Month, Cohort Index & Retention Rate) for each cohort, **Tabular Representation:** Generated Cohort Retention rate to aid in cohort comparison.
 
+1. Imported the dataset from the cleaned_transaction_dataset.xlsx file using the Input Data tool.
+2. Filtered for all the transactions where the `[order_status]` field is Approved using Filter tool since, unapproved orders data is not relevant for a Customer Cohort Analysis.
+3. Isolate the `[customer_id]` & `[transaction_date]` fields using the Select tool.
+4. Extract and Parse to Number the year and month portion of `[transaction_date]` field in `‘yyyymm’` format using Formula tool with formula: `[transaction_month_YM] = Tonumber(DateTimeFormat([transaction_date], "%Y%m"))`
+5. Find the first month of transaction in the dataset using Summarize tool by calculating the min value of `[transaction_month_YM]` field as `[transaction_start_month_YM]` field.
+6. Append the `[transaction_start_month_YM]` field to the dataset using the Append tool.
+7. Calculate the difference between the current transaction month and first transaction month as the transaction month index using the Formula tool with formula: `[transaction_month_index] = Tonumber([transaction_month_YM]) - ToNumber([transaction_start_month_YM])` formatted as Int16 datatype. The transaction month index parameter represents the count of intervals of the current transaction month since the first transaction month.
+8. Group the dataset by `[customer_id]` field and calculate the minimum `[transaction_month_index]` field as `[cohort_month]` field using the Summarize tool.
+9. Encase all the above 2 → 8 tools in a Tool Container titled ‘Task: Filter by Approved orders and Calculate Month Index & Cohort Month’.
+10. Join the `[cohort_month]` field with the dataset based on the `[customer_id]` field using the Join tool.
+11. Calculate the difference between the transaction month index value and the cohort month as the cohort index using the Formula tool with formula: `[cohort_index] = [transaction_month_index] - [cohort_month]`
+
+    Cohort Index is an integer representation of the number of months that has passed since a customer's first transaction.
+12. Encase all the above 10 → 11 tools in a Tool Container titled ‘Task: Assign Cohort Index’.
+13. Group the dataset by `[customer_id]`, `[cohort_month]` and `[cohort_index]` fields and Count the records as `[customer_count]` field using the Summarize tool.
+14. Pivot the dataset using Cross Tab tool by grouping with `[cohort_month]` field, setting `[cohort_index]` as column headers and setting sum aggregation of `[customer_count]` field as values in the table.
+
+    The resulting table provides insight on the number of customers who have continued to use a product or service over time, which can be further analyzed through the calculation of retention rates.
+15. Sort the dataset based on `[cohort_month]` field in ascending order.
+16. Encase all the above 13 → 15 tools in a Tool Container titled ‘Task: Create Cohort Data Pivot Table’.
+17. Replace existing null values in the dataset with 0 value using the Data Cleansing tool.
+18. Convert all values in the dataset into percentages by taking the first column values as base using the Multi-Field Formula tool with formula: `([CurrentField*]* / [0]) * 100` and formatting the output type as Fixed decimal with 19.2 size. These values are the Customer Retention Rates for each cohort.
+19. Encase all the above 17 → 18 tools in a Tool Container titled ‘Task: Cohort Retention Rate Table’.
+20. Encase the entire workflow above in a Master Tool Container titled ‘Phase 2: Cohort Analysis’. Export the data to Cohort Analysis Data.xlsx file using the Output tool.
 
