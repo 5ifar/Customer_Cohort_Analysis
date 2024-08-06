@@ -18,6 +18,10 @@ Please find the sectional links for the project below:
   - [Data Sources](#data-sources)
   - [Data Dictionary](#data-dictionary)
   - [Data Integrity](#data-integrity)
+- [Project Implementation](#project-implementation)
+  - [Phase 1 - Data Cleaning](#phase-1---data-cleaning)
+  - [Phase 2 - Cohort Analysis](#phase-2---cohort-analysis)
+  - [Phase 3 - Key Business Insights Generation](#phase-3---key-business-insights-generation)
 
 ---
 
@@ -115,7 +119,7 @@ This phase involved the following steps: **Customer Segmentation:** Grouped cust
 19. Encase all the above 17 → 18 tools in a Tool Container titled ‘Task: Cohort Retention Rate Table’.
 20. Encase the entire workflow above in a Master Tool Container titled ‘Phase 2: Cohort Analysis’. Export the data to Cohort Analysis Data.xlsx file using the Output tool.
 
-### **Phase 3 - Key Business Insights Generation:**
+### Phase 3 - Key Business Insights Generation:
 This final phase encompasses building workflows to derive the following insights:
 - **Distinct Brands**: Identified unique brands available in the dataset.
 - **Total Sales Amount by Brand**: Calculated the total sales amount for each brand.
