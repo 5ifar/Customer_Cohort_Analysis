@@ -50,6 +50,8 @@ In this project, I leveraged the skills and knowledge acquired during the Altery
 ### Data Sources:
 The project utilizes the transaction_dataset.csv dataset, which contains detailed information about customer transactions including transaction IDs, product details, customer IDs, dates and order statuses among others. This dataset was sourced from Hicounsellor.com projects titled "Analyzing E-commerce Transactions". This CSV contains 20,000 rows across 13 columns.
 
+[Link to Data Source](https://github.com/5ifar/Ecommerce_Cohort_Analysis/tree/main/Data/Data%20Source)
+
 ### Data Dictionary:
 The dataset provides the following key attributes:
 
@@ -132,4 +134,15 @@ This final phase encompasses building workflows to derive the following insights
 - **Top 5 Product Lines by Revenue Contribution**: Identified product lines with the highest total revenue contribution.
 - **Customers Engaged with Entire Product Range**: Identified customers who made transactions in all distinct product lines.
 
+---
 
+## Workflow Layout:
+
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Ecommerce%20Cohort%20Analysis%20Project%20Workflow.jpg" width="100%" height="100%"> </div>
+
+---
+
+## Data Outputs:
+[Link to Data Outputs](https://github.com/5ifar/Ecommerce_Cohort_Analysis/tree/main/Data/Data%20Outputs)
+
+---
