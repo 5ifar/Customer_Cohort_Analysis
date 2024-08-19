@@ -130,11 +130,12 @@ This final phase encompasses building workflows to derive the following insights
 - **Unique Customers**: Counted the number of unique customers who made transactions.
 - **Approved vs. Unapproved Orders**: Quantified approved and unapproved transactions.
 - **Average List Price by Product Line**: Listed top product lines with the highest average list price.
-- **Top 5 Profitable Brands**: Identified brands with the highest profit margin.
-- **Top 5 Products with Highest Profit Margin**: Identified the top 5 products with the highest profit margin.
-- **Customer Spending Analysis**: Calculated three metrics for each customer: Total number of transactions, Total amount spent & Average profit per transaction
-- **Top 5 Product Lines by Revenue Contribution**: Identified product lines with the highest total revenue contribution.
-- **Customers Engaged with Entire Product Range**: Identified customers who made transactions in all distinct product lines.
+- **Top 5 Profitable Brands**: Identified top 5 brands with the highest profit margin.
+- **Top 5 Profitable Products**: Identified top 5 products with the highest profit margin.
+- **High Markup Products**: Listed the products where the list_price is greater than twice the standard_cost.
+- **Top 5 Product Lines by Revenue Contribution**: Identified top 5 product lines with the highest total revenue contribution.
+- **Customer Spending Analysis**: Calculated three metrics for each customer: Total number of transactions, Total amount spent & Average profit per transaction.
+- **High Engagement Customers**: Identified customers who made transactions in all distinct product lines within the entire Product Range.
 
 ---
 
