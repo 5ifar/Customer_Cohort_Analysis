@@ -57,7 +57,7 @@ This final phase encompasses building workflows to derive the following insights
 - **Top 5 Profitable Brands**: Identified top 5 brands with the highest profit margin.
 - **Top 5 Profitable Products**: Identified top 5 products with the highest profit margin.
 - **High Markup Products**: Listed the products where the list_price is greater than twice the standard_cost.
-- **Top 5 Product Lines by Revenue Contribution**: Identified top 5 product lines with the highest total revenue contribution.
+- **Product Lines by Revenue Contribution**: Identified total revenue contribution for all product lines.
 - **Customer Spending Analysis**: Calculated three metrics for each customer: Total number of transactions, Total amount spent & Average profit per transaction.
 - **High Engagement Customers**: Identified customers who made transactions in all distinct product lines within the entire Product Range.
 
