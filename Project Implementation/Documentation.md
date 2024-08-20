@@ -53,7 +53,7 @@ This final phase encompasses building workflows to derive the following insights
 - **Total Sales Amount by Brand**: Calculated the total sales amount for each brand.
 - **Unique Customers**: Counted the number of unique customers who made transactions.
 - **Approved vs. Unapproved Orders**: Quantified approved and unapproved transactions.
-- **Average List Price by Product Line**: Listed top product lines with the highest average list price.
+- **Average List Price by Product Line**: Listed product lines with their average list price.
 - **Top 5 Profitable Brands**: Identified top 5 brands with the highest profit margin.
 - **Top 5 Profitable Products**: Identified top 5 products with the highest profit margin.
 - **High Markup Products**: Listed the products where the list_price is greater than twice the standard_cost.
