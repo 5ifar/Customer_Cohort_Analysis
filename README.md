@@ -4,7 +4,7 @@
 
 This repository serves as my documentation for the Ecommerce Cohort Analysis on Customer Retention - Alteryx Project.
 
-It showcases my competancy to work with Alteryx Designer and demonstrates my proficiency in essential tools like **In/Out Tools (Browse, Input Data, Output Data), Preparation Tools (Auto Field Tool, Data Cleansing Tool, Filter Tool, Formula Tool, Multi-Field Tool, Sample Tool, Select Tool, Sort Tool, Unique Tool), Join Tools (Join, Append Fields & Union), Transform Tools (Cross-Tab Tool, Summarize Tool), Parse Tools (DateTime Tool, Text to Columns Tool) and Documentation Tools (Comment & Tool Container).**
+It showcases my competancy to work with Alteryx Designer and demonstrates my proficiency in essential tools like **In/Out Tools (Browse, Input Data, Output Data), Preparation Tools (Auto Field Tool, Data Cleansing Tool, Filter Tool, Formula Tool, Multi-Field Tool, Sample Tool, Select Tool, Sort Tool, Unique Tool), Join Tools (Join, Append Fields & Union), Transform Tools (Cross-Tab Tool, Summarize Tool), Parse Tools (DateTime Tool, Text to Columns Tool), Reporting Tools (Basic Table) and Documentation Tools (Comment & Tool Container).**
 
 The entire project has been implemented using Alteryx Designer 2024.1 (User) (with AMP Engine enabled). The raw data source and data output files have been uploaded to this repository data folder.
 
@@ -20,7 +20,7 @@ Please find the sectional links for the project below:
   - [Data Integrity](#data-integrity)
 - [Project Implementation](#project-implementation)
 - [Workflow Layout](#workflow-layout)
-- [Data Outputs](#data-outputs)
+- [Key Business Insights](#key-business-insights)
 
 ---
 
@@ -40,7 +40,7 @@ In this project, I leveraged the skills and knowledge acquired during the Altery
 1. Data Import/Export - In/Out Tools: Input Tool, Output Tool, Browse Tool
 2. Data Preparation - Preparation Tools: Auto Field Tool, Data Cleansing Tool, Filter Tool, Formula Tool, Multi-Field Tool, Sample Tool, Select Tool, Sort Tool, Unique Tool
 3. Data Transformation - Join Tools: Append Fields Tool, Join Tool & Transform Tools: Cross-Tab Tool, Summarize Tool & Parse Tools: DateTime Tool, Text to Columns Tool
-4. Documentation - Documentation Tools: Comment, Tool Container
+4. Documentation - Reporting Tools: Basic Table, Documentation Tools: Comment, Tool Container
 
 ---
 
@@ -88,7 +88,11 @@ Please find the documentation links for the project phase-wise implementation be
 
 ## Workflow Layout:
 
-<!--<div align="center"> <img src="" width="100%" height="100%"> </div>-->
+### I. Data Cleaning & Cohort Analysis Workflow:
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/ECA%20Project%20-%20Data%20Cleaning%20%26%20Cohort%20Analysis%20Workflow.png" width="100%" height="100%"> </div>
+
+### II. Business Insights Workflow:
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/ECA%20Project%20-%20Business%20Insights%20Workflow.png" width="100%" height="100%"> </div>
 
 ---
 
