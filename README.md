@@ -88,11 +88,49 @@ Please find the documentation links for the project phase-wise implementation be
 
 ## Workflow Layout:
 
-<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Ecommerce%20Cohort%20Analysis%20Project%20Workflow.jpg" width="100%" height="100%"> </div>
+<!--<div align="center"> <img src="" width="100%" height="100%"> </div>-->
 
 ---
 
 ## Key Business Insights:
 
+### 1. & 2. Distinct Brands & Total Sales Amount by Brand: Identified unique brands available in the dataset and Calculated the total sales amount for each brand.
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%201%2C2%20Data.png" width="50%" height="50%"> </div> 
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%201%2C2%20Visual.png" width="100%" height="100%"> </div>
+
+### 3. Unique Customers: Counted the number of unique customers who made transactions.
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%203%20Data.png" width="50%" height="50%"> </div>
+
+### 4. Approved vs. Unapproved Orders: Quantified approved and unapproved transactions.
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%204%20Data.png" width="50%" height="50%"> </div>
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%204%20Visual.png" width="100%" height="100%"> </div>
+
+### 5. Average List Price by Product Line: Listed product lines with their average list price.
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%205%20Data.png" width="50%" height="50%"> </div>
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%205%20Visual.png" width="100%" height="100%"> </div>
+
+### 6. Top 5 Profitable Brands: Identified top 5 brands with the highest profit margin.
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%206%20Data.png" width="50%" height="50%"> </div>
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%206%20Visual.png" width="100%" height="100%"> </div>
+
+### 7. Top 5 Profitable Products: Identified top 5 products with the highest profit margin.
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%207%20Data.png" width="50%" height="50%"> </div>
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%207%20Visual.png" width="100%" height="100%"> </div>
+
+### 8. High Markup Products: Listed the products where the list_price is greater than twice the standard_cost.
+This is a sample of output. The entire data can be viewed here: [High Markup Products.yxdb](https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Dataset/Processed%20Data/High%20markup%20Products.yxdb)
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%208%20Data%20Preview.png" width="50%" height="50%"> </div>
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%208%20Visual.png" width="50%" height="50%"> </div>
+
+### 9. Product Lines by Revenue Contribution: Identified total revenue contribution for all product lines.
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%209%20Data.png" width="50%" height="50%"> </div>
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%209%20Visual.png" width="100%" height="100%"> </div>
+
+### 10. Customer Spending Analysis: Calculated three metrics for each customer: Total number of transactions, Total amount spent & Average profit per transaction.
+This is a sample of output. The entire data can be viewed here: [Customer Spending Analysis.yxdb](https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Dataset/Processed%20Data/Customer%20Spending%20Analysis.yxdb)
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Business%20Insights%20Files/Insight%2010%20Data%20Preview.png" width="50%" height="50%"> </div>
+
+### 11. High Engagement Customers: Identified customers who made transactions in all distinct product lines within the entire Product Range.
+A total of 69 customers were identified as High Engagement Customers. Their customer_id data can be viewed here: [High Engagement Customers.yxdb](https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Dataset/Processed%20Data/High%20Engagement%20Customers.yxdb)
 
 ---
