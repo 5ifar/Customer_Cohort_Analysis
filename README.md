@@ -27,6 +27,8 @@ Please find the sectional links for the project below:
 ## Project Objective:
 Cohort analysis is a method of grouping customers into cohorts or groups who have undergone a common experience within a specific time frame, such as the date they subscribed to, signed up for or purchased your product. Then you can compare how many customers from each Cohort unit remained active users after one month, two months, three months, etc. This can help you understand the retention patterns and differences between the groupings and their possible causes. In cohort analysis, month 0 usually represents the month when the customer joined or made their first purchase. Cohort Analysis is a valuable technique that enables the extraction of actionable insights related to customer churn, product engagement, product value, and other relevant metrics.
 
+This project deals with a specific type of cohort analysis called Acquisition cohort analysis. It divides users into cohorts based on acquisition events. For the scope of this project the acquisition event is defined as the customers first transaction month. This kind of analysis allows organizations to identify long-term retention patterns for each cohort and compare the effectiveness of various retention strategies over time.
+
 This Alteryx project has been designed with an intent of enhancing e-commerce operations. It has three vital stages: Data Cleanup, Cohort Analysis and Insights generation through which I'll unravel the nuances of online shopping and driving strategic decisions to maximize revenue.
 
 ## Tools used:
