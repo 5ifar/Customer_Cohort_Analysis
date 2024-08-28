@@ -20,6 +20,7 @@ Please find the sectional links for the project below:
   - [Data Integrity](#data-integrity)
 - [Project Implementation](#project-implementation)
 - [Workflow Layout](#workflow-layout)
+- [Cohort Analysis Insights](#cohort-analysis-insights)
 - [Key Business Insights](#key-business-insights)
 
 ---
@@ -95,6 +96,17 @@ Please find the documentation links for the project phase-wise implementation be
 
 ### II. Business Insights Workflow:
 <div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/ECA%20Project%20-%20Business%20Insights%20Workflow.png" width="100%" height="100%"> </div>
+
+---
+
+## Cohort Analysis Insights:
+<div align="center"> <img src="https://github.com/5ifar/Ecommerce_Cohort_Analysis/blob/main/Assets/Cohort%20Analysis%20Data%20Matrix.PNG" width="100%" height="100%"> </div>
+
+**Horizontal Axis Analysis:** April (47.11 %) and July 2017 (44.79 %) Cohorts have the highest customer retention rate in the 90 - 120 elapsed days period.
+
+**Vertical Axis Analysis:** For 90 days period, April (47.11 %), July (43.75 %) and August 2017 (43.94 %) Cohorts display the highest retention. For 120 days period, April (44.57 %) and July 2017 (44.79 %) Cohorts display the highest retention. For 180 days period, April (40.88 %) and June 2017 (43.42 %) Cohorts display the highest retention.
+
+**Diagonal Axis Analysis:** For the month of December 2017, the June Cohort displays the highest customer retention rate of 43.42 % and the August Cohort displays the lowest customer retention rate of 19.70 %.
 
 ---
 
