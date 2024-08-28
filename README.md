@@ -1,10 +1,8 @@
-# <img src="https://github.com/user-attachments/assets/3d0e1d33-0d58-486a-9ace-65e6b45acfa1" width="5%" height="5%"> Ecommerce Cohort Analysis
+# <img src="https://github.com/user-attachments/assets/3d0e1d33-0d58-486a-9ace-65e6b45acfa1" width="5%" height="5%"> Customer Cohort Analysis
 
 <!--<div align="center"> <img src="" width="100%" height="100%"> </div>-->
 
-This repository serves as my documentation for the Ecommerce Cohort Analysis on Customer Retention - Alteryx Project.
-
-It showcases my competancy to work with Alteryx Designer and demonstrates my proficiency in essential tools like **In/Out Tools (Browse, Input Data, Output Data), Preparation Tools (Auto Field Tool, Data Cleansing Tool, Filter Tool, Formula Tool, Multi-Field Tool, Sample Tool, Select Tool, Sort Tool, Unique Tool), Join Tools (Join, Append Fields & Union), Transform Tools (Cross-Tab Tool, Summarize Tool), Parse Tools (DateTime Tool, Text to Columns Tool), Reporting Tools (Basic Table) and Documentation Tools (Comment & Tool Container).**
+This repository serves as my documentation for the Customer Cohort Analysis on Customer Retention - Alteryx Project.
 
 The entire project has been implemented using Alteryx Designer 2024.1 (User) (with AMP Engine enabled). The raw data source and data output files have been uploaded to this repository data folder.
 
@@ -40,10 +38,10 @@ This Alteryx project has been designed with an intent of enhancing e-commerce op
 ## Skills & Methodologies implemented:
 In this project, I leveraged the skills and knowledge acquired during the Alteryx Designer Core Certification and the pursuit of 4 other micro-credentials. This allowed me to harness a robust set of Alteryx tools, putting them to work in a cohesive workflow. Throughout this project, I harnessed the full potential of Alteryx, seamlessly executing all phases and leveraging a range of powerful tools from each tool palette:
 
-1. Data Import/Export - In/Out Tools: Input Tool, Output Tool, Browse Tool
-2. Data Preparation - Preparation Tools: Auto Field Tool, Data Cleansing Tool, Filter Tool, Formula Tool, Multi-Field Tool, Sample Tool, Select Tool, Sort Tool, Unique Tool
-3. Data Transformation - Join Tools: Append Fields Tool, Join Tool & Transform Tools: Cross-Tab Tool, Summarize Tool & Parse Tools: DateTime Tool, Text to Columns Tool
-4. Documentation - Reporting Tools: Basic Table, Documentation Tools: Comment, Tool Container
+1. Data Import/Export - **In/Out Tools: Input Tool, Output Tool, Browse Tool**
+2. Data Preparation - **Preparation Tools: Auto Field Tool, Data Cleansing Tool, Filter Tool, Formula Tool, Multi-Field Tool, Sample Tool, Select Tool, Sort Tool, Unique Tool**
+3. Data Transformation - **Join Tools: Append Fields Tool, Join Tool & Transform Tools: Cross-Tab Tool, Summarize Tool & Parse Tools: DateTime Tool, Text to Columns Tool**
+4. Documentation - **Reporting Tools: Basic Table, Documentation Tools: Comment, Tool Container**
 
 ---
 
