@@ -1,6 +1,6 @@
 # <img src="https://github.com/user-attachments/assets/3d0e1d33-0d58-486a-9ace-65e6b45acfa1" width="5%" height="5%"> Customer Cohort Analysis
 
-<!--<div align="center"> <img src="" width="100%" height="100%"> </div>-->
+<div align="center"> <img src="https://github.com/5ifar/Customer_Cohort_Analysis/blob/main/Assets/Customer%20Cohort%20Analysis%20Project%20Thumbnail%2BIcon.png" width="100%" height="100%"> </div>
 
 This repository serves as my documentation for the Customer Cohort Analysis on Customer Retention - Alteryx Project.
 
